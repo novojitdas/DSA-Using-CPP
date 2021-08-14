@@ -7,7 +7,7 @@ int main()
     cout << "Enter the number of students:" << endl;
     cin >> student;
 
-    int marks[10]; // it contains garbage values by default
+    int marks[10] = {0}; // it contains garbage values by default
     //   another way to decalare array
     //  int arr[10] = {0}; which contains all value as 0 by default
 
@@ -22,7 +22,7 @@ int main()
     // output
     for (int i = 0; i < student; i++)
     {
-        cout << marks << ", ";
+        cout << marks[i] << ", ";
     }
 
     return 0;
