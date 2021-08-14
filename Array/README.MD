@@ -30,4 +30,17 @@ string colors[4] = {"red","green","blue"}; // array of complex datatype
   <br>
   <strong>When we are calling the printArray Function we are not sending the values of the array. we are just sending the address value of the array. So size of that pointer ( int arr[] or int *arr) is 8 bytes only. For that reason, the value of the n = sizeof(pointer)/sizeof(int) = 8/4 = 2. which is wrong in this case. for solving this problem we need to send the value of n into the function parameter from main function. </strong>
   <br>
-</p>
+</p> 
+
+### Array using linear search
+**PESUDOCODE**
+```
+for (i to sizeOfArray)
+    if(array[i]==key)
+     {
+       return i;
+     }
+     else
+        return -1;
+
+```
