@@ -32,11 +32,16 @@ string colors[4] = {"red","green","blue"}; // array of complex datatype
   <br>
 </p> 
 
-### Array using linear search
+### Linear search using array
+In computer science, a **linear search algorithm** or **sequential search** is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.complexity of linear search is **O(n)**
 **PESUDOCODE**
-```
-for (i to sizeOfArray)
-    if(array[i]==key)
+```cpp
+1. take an array[]
+2. take an size variable called "n"
+3. loop through 0 to n
+
+for (int i=0;i<n;i++) // where n is the size of array
+    if(array[i]==key) // key is the target value when we are searching
      {
        return i;
      }
@@ -44,3 +49,73 @@ for (i to sizeOfArray)
         return -1;
 
 ```
+
+### Binary Search using array
+
+Binary search only works on sorted data structures. This algorithm repeatedly target the center of the **sorted data or monotonic** structure & divide the search space into half till the match is found.
+The time complexity of binary search algorithm is O(Log n).
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/PTu0oqp.png" alt=""></a>
+  <br>
+  <strong>Visual of Binary Search</strong>
+  <br>
+</p> 
+
+1. Search the sorted array by repeatedly dividing the search interval in half
+2. Begin with an interval covering the whole array.
+3. If The value of the search key is same as the value of the middle, then middle index will be returned.
+4. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half or left.
+5. Otherwise narrow it to the upper half or right.
+6. Repeatedly check until the value is found or start value is less than end.
+
+##### PESUDOCODE
+
+```cpp
+start = 0 
+end = n-1
+key = user defined or fixed
+
+  while(start<end) {
+    mid = (start+end)/2 
+
+    if(arr[mid]==key)
+    {
+      return mid;
+    }
+    else if (key<arr[mid])
+    {
+      // go to left or lower 
+      end = mid - 1;
+    }
+    else 
+    {
+      // go to right or upper
+      start = mid + 1;
+    }
+  }
+
+// exits the while loop
+// if start is bigger than end
+return -1;
+
+```
+
+**BINARY SEARCH TIME COMPLEXITY CALCULATION** 
+
+
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/stR1ovQ.png" alt=""></a>
+  <br>
+  <strong>LOG BASICS</strong>
+  <br>
+</p> 
+
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/BrNRgDJ.jpg" alt=""></a>
+  <br>
+  <strong>HAND NOTE - BINARY SEARCH</strong>
+  <br>
+</p> 
