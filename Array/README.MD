@@ -119,3 +119,7 @@ return -1;
   <strong>HAND NOTE - BINARY SEARCH</strong>
   <br>
 </p> 
+
+### Practice Problems 
+
+1. [reverse all the elements of given array]()

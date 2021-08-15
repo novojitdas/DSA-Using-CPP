@@ -8,7 +8,7 @@ int binarySearch(int arr[], int size, int key)
 
     while (start <= end) // loop will run until,if start is less than end
     {
-        int mid = (start + end) / 2;
+        int mid = (start + end) / 2; // mid will update after each iteration.
         if (key == arr[mid])
         {
             return mid; // only return mid
