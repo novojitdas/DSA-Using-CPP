@@ -106,9 +106,9 @@ return -1;
 
 <p align="center">
   <br>
-  <a href=""><img src="https://i.imgur.com/stR1ovQ.png" alt=""></a>
+  <a href="https://www.youtube.com/watch?v=4UNkQcBrLaQ"><img src="https://i.imgur.com/stR1ovQ.png" alt=""></a>
   <br>
-  <strong>LOG BASICS</strong>
+  <strong>LOG BASICS (CLICK ON IMAGE TO VIEW THE VIDEO)</strong>
   <br>
 </p> 
 
@@ -123,4 +123,26 @@ return -1;
 ### Practice Problems 
 
 1. [reverse all the elements of given array]()
-2. [Print all pairs of elements]()
+2. [Print all pairs of elements]() 
+
+### Solutions 
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/rlbJbMq.jpg" alt=""></a>
+  <br>
+  <strong>reverse all the elements of given array</strong>
+  <br>
+</p>
+
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/MdqOJ1U.png" alt=""></a>
+  <br>
+  <strong>Print all pairs of elements</strong>
+  <br>
+</p>
+
+### Sub-Array
+
+- sub array is a **smaller contiguous part** of an array.
+
