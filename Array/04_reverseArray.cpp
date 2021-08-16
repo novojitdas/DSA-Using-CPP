@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Problem: reverse all the elements of given array
 int reverseArray(int arr[], int size)
 {
     int start = 0;
@@ -8,6 +8,8 @@ int reverseArray(int arr[], int size)
 
     while (start < end)
     {
+        // we will swap first index (start) with last index (end)
+        // then start++ (to right) and end-- (to left)
         swap(arr[start], arr[end]);
         start += 1;
         end -= 1;

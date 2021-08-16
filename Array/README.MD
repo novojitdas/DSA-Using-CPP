@@ -123,3 +123,4 @@ return -1;
 ### Practice Problems 
 
 1. [reverse all the elements of given array]()
+2. [Print all pairs of elements]()
