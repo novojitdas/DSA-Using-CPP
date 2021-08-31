@@ -125,7 +125,7 @@ return -1;
 1. [reverse all the elements of given array]()
 2. [Print all pairs of elements]() 
 
-### Solutions 
+##### Solutions 
 <p align="center">
   <br>
   <a href=""><img src="https://i.imgur.com/rlbJbMq.jpg" alt=""></a>
@@ -145,4 +145,23 @@ return -1;
 ### Sub-Array
 
 - sub array is a **smaller contiguous part** of an array.
+- sub array can be only **one element**
+
+##### Practice Problems 
+1. [Print all sub-array of a given array]()
+2. [Print sub-array sum of a given array - using brute force]()
+3. [Print sub-array sum of a given array - using prefix array]()
+4. [Print sub-array sum of a given array - using kadane's algorithm]()
+
+##### Solution 
+ 
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/g8Gghky.png" alt=""></a>
+  <br>
+  <strong>Print sub-array sum of a given array - using prefix array</strong>
+  <br>
+</p>
+
+
 
