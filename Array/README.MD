@@ -2,13 +2,16 @@
 
 An array is a collection of elements of the same type placed in contiguous memory locations.
 
-### Operations 
+- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+
+### 1. Operations 
 - Creation 
 - Input 
 - Output 
 - Update 
 
-### Declaration
+### 2. Declaration
 ```cpp
 // Creating an Array 
 // datatype array_name[size]
@@ -22,7 +25,7 @@ string colors[4] = {"red","green","blue"}; // array of complex datatype
 
 ```
 
-### Array Passed By Reference to a Function
+### 3. Array Passed By Reference to a Function
 
 <p align="center">
   <br>
@@ -32,7 +35,7 @@ string colors[4] = {"red","green","blue"}; // array of complex datatype
   <br>
 </p> 
 
-### Linear search using array
+### 4. Linear search using array
 In computer science, a **linear search algorithm** or **sequential search** is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.complexity of linear search is **O(n)**
 **PESUDOCODE**
 ```cpp
@@ -50,7 +53,7 @@ for (int i=0;i<n;i++) // where n is the size of array
 
 ```
 
-### Binary Search using array
+### 5. Binary Search using array
 
 Binary search only works on sorted data structures. This algorithm repeatedly target the center of the **sorted data or monotonic** structure & divide the search space into half till the match is found.
 The time complexity of binary search algorithm is O(Log n).
@@ -120,7 +123,7 @@ return -1;
   <br>
 </p> 
 
-### Practice Problems 
+### 7. Practice Problems 
 
 1. [reverse all the elements of given array]()
 2. [Print all pairs of elements]() 
@@ -142,7 +145,7 @@ return -1;
   <br>
 </p>
 
-### Sub-Array
+### 8. Sub-Array
 
 - sub array is a **smaller contiguous part** of an array.
 - sub array can be only **one element**
