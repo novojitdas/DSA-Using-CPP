@@ -45,6 +45,10 @@ string colors[4] = {"red","green","blue"}; // array of complex datatype
   <br>
 </p> 
 
+- [Array Input Output](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/00_ArrayInputoutput.cpp)
+- [Array To Function](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/01_ArraytoFunction.cpp)
+
+
 ### 4. Linear search using array
 In computer science, a **linear search algorithm** or **sequential search** is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.complexity of linear search is **O(n)**
 **PESUDOCODE**
@@ -62,6 +66,7 @@ for (int i=0;i<n;i++) // where n is the size of array
         return -1;
 
 ```
+- [Linear Search Code](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/02_linearSearch.cpp)
 
 ### 5. Binary Search using array
 
@@ -113,6 +118,7 @@ key = user defined or fixed
 return -1;
 
 ```
+- [Binary Search Code](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/03_binarySearch.cpp)
 
 **BINARY SEARCH TIME COMPLEXITY CALCULATION** 
 
@@ -135,8 +141,8 @@ return -1;
 
 ### 7. Practice Problems 
 
-1. [reverse all the elements of given array]()
-2. [Print all pairs of elements]() 
+1. [reverse all the elements of given array](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/04_reverseArray.cpp)
+2. [Print all pairs of elements](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/05_pairsOfElements.cpp) 
 
 ##### Solutions 
 <p align="center">
@@ -161,8 +167,8 @@ return -1;
 - sub array can be only **one element**
 
 ##### Practice Problems 
-1. [Print all sub-array of a given array]()
-2. [Print sub-array sum of a given array - using brute force]()
+1. [Print all sub-array of a given array](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/06_PrintAllSubarray.cpp)
+2. [Print sub-array sum of a given array - using brute force](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/07_SubArraySumOne.cpp)
 3. [Print sub-array sum of a given array - using prefix array]()
 4. [Print sub-array sum of a given array - using kadane's algorithm]()
 
