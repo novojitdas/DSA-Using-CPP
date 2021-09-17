@@ -182,5 +182,18 @@ return -1;
   <br>
 </p>
 
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/yM6P4sy.png" alt=""></a>
+  <br>
+  <strong>Kadanes Algorithm
+  <br>- CS means current sum & MS means Maximum Sum here.
+  <br>CS = CS + arr[i]; 
+  <br>if(cs < 0) then cs=0
+  <br>ms = max(cs,ms);
+    </strong>
+  <br>
+</p>
+
 
 
