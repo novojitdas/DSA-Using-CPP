@@ -4,15 +4,15 @@ An array is a collection of elements of the same type placed in contiguous memor
 
 ### Table of Contents
 
-- [Operations](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#1-operations)
+- [Operations](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#1-operations)
   
-- [Declaration](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#2-declaration)
-- [Array Passed By Reference to a Function](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#3-array-passed-by-reference-to-a-function)
-- [Linear search using array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#4-linear-search-using-array)
-- [Binary Search using array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#5-binary-search-using-array)
+- [Declaration](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#2-declaration)
+- [Array Passed By Reference to a Function](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#3-array-passed-by-reference-to-a-function)
+- [Linear search using array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#4-linear-search-using-array)
+- [Binary Search using array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#5-binary-search-using-array)
   * [BINARY SEARCH TIME COMPLEXITY CALCULATION]()
-- [Practice Problems](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#7-practice-problems)
-- [Sub-Array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/Array#8-sub-array)
+- [Practice Problems](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#7-practice-problems)
+- [Sub-Array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array#8-sub-array)
 
 
 ### 1. Operations 
