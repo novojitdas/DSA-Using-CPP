@@ -16,12 +16,15 @@ int kadaneSum(int arr[], int size)
 
         largest_sum = max(current_sum, largest_sum);
     }
+    return largest_sum;
 }
 
 int main()
 {
     int arr[] = {-2, 3, 4, -1, 5, -12, 6, 1, 3};
-    int size = sizeoff(arr) / sizeoff(int);
+    int size = sizeof(arr) / sizeof(int);
+
+    cout << kadaneSum(arr, size);
 
     return 0;
 }
