@@ -1,5 +1,12 @@
 # DSA Using CPP
  DSA Learning
+### BASIC TOPICS
+1. [Array](https://github.com/novojitdas/DSA-Using-CPP/tree/main/01%20Array) 
+1. [Basic Sorting](https://github.com/novojitdas/DSA-Using-CPP/tree/main/02%20Sorting) 
+1. [Strings]() 
+1. [2D Array]() 
+1. []() 
+
 
 ### Related Maths 
 1. [Logarithms](https://www.youtube.com/watch?v=4UNkQcBrLaQ&list=PLmdFyQYShrjcWl13fndjdWRBTF0C-tHG3)
