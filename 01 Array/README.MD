@@ -169,8 +169,8 @@ return -1;
 ##### Practice Problems 
 1. [Print all sub-array of a given array](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/06_PrintAllSubarray.cpp)
 2. [Print sub-array sum of a given array - using brute force](https://github.com/novojitdas/DSA-Using-CPP/blob/main/Array/07_SubArraySumOne.cpp)
-3. [Print sub-array sum of a given array - using prefix array]()
-4. [Print sub-array sum of a given array - using kadane's algorithm]()
+3. [Print sub-array sum of a given array - using prefix array](https://github.com/novojitdas/DSA-Using-CPP/blob/main/01%20Array/08_SubArraySumTwo.cpp)
+4. [Print sub-array sum of a given array - using kadane's algorithm](https://github.com/novojitdas/DSA-Using-CPP/blob/main/01%20Array/09_SubArraySumThree.cpp)
 
 ##### Solution 
  
