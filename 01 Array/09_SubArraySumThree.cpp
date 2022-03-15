@@ -9,7 +9,7 @@ int kadaneSum(int arr[], int size)
     for (int i = 0; i < size; i++)
     {
         current_sum = current_sum + arr[i];
-        if (current_sum < 0)
+        if (current_sum < 0) // ignore negative numbers
         {
             current_sum = 0;
         }
